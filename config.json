@@ -1,6 +1,6 @@
 {
   "name": "DuckDNS (via ngrok)",
-  "version": "0.0.1",
+  "version": "1",
   "slug": "duckdns_via_ngrok",
   "description": "Makes homeassistant accessible via DuckDNS by updating it with an ngrok tunnel url.",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -15,5 +15,5 @@
     "ngrok_token": "str",
     "duckdns_token": "str",
     "duckdns_domains": ["str"]
-  },
+  }
 }
